@@ -1,0 +1,204 @@
+.popular-artists {
+    margin-bottom: 50px;
+    padding-left: 0;
+}
+
+.popular-artists>.entry {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 0;
+}
+
+.popular-artists>.entry>h3 {
+    color: #1f2022;
+    font-family: "Playfair Display";
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.popular-artists>.entry>.entry-icons {
+    display: flex;
+    align-items: center;
+}
+
+.popular-artists>.entry>.entry-icons button {
+    width: 28px;
+    height: 28px;
+    background: #1f2022;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.1;
+    transition: .5s;
+}
+
+.popular-artists>.entry>.entry-icons button:hover {
+    width: 28px;
+    height: 28px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+.popular-artists>.entry>.entry-icons button:first-of-type {
+    margin-right: 10px;
+}
+
+.popular-artists .artist-cards {
+    white-space: nowrap;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 35px;
+}
+
+.popular-artists .artist-cards::-webkit-scrollbar {
+    display: none;
+}
+
+.popular-artists .artist-card {
+    display: inline-block;
+    margin: 0 30px 0 0;
+    width: 141px;
+    background: transparent;
+}
+
+.popular-artists .artist-card>.artist-art {
+    width: 100%;
+    height: 90px;
+    margin: 0 0 12px 0;
+    border-radius: 6px;
+}
+
+.popular-artists .artist-card>.artist-art>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.popular-artists .artist-card>h3 {
+    color: #19202c;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    margin: 0 0 5px 0;
+}
+
+.popular-artists .artist-card>.artist-artist {
+    color: #19202c;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    opacity: 0.5;
+}
+
+
+@media only screen and (min-width: 961px) {
+    .popular-artists {
+        margin-bottom: 50px;
+        padding-left: 30px;
+    }
+    
+    .popular-artists>.entry {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 80px 0 0;
+    }
+    
+    .popular-artists>.entry>h3 {
+        color: #1f2022;
+        font-family: "Playfair Display";
+        font-size: 28px;
+        font-weight: 900;
+    }
+    
+    .popular-artists>.entry>.entry-icons {
+        display: flex;
+        align-items: center;
+    }
+    
+    .popular-artists>.entry>.entry-icons button {
+        width: 28px;
+        height: 28px;
+        background: #1f2022;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0.1;
+        transition: .5s;
+    }
+    
+    .popular-artists>.entry>.entry-icons button:hover {
+        width: 28px;
+        height: 28px;
+        background: var(--primary-color);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 1;
+    }
+    
+    .popular-artists>.entry>.entry-icons button:first-of-type {
+        margin-right: 10px;
+    }
+    
+    .popular-artists .artist-cards {
+        white-space: nowrap;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        padding-top: 35px;
+    }
+    
+    .popular-artists .artist-cards::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .popular-artists .artist-card {
+        display: inline-block;
+        margin: 0 30px 0 0;
+        width: 141px;
+        background: transparent;
+    }
+    
+    .popular-artists .artist-card>.artist-art {
+        width: 100%;
+        height: 90px;
+        margin: 0 0 12px 0;
+        border-radius: 6px;
+    }
+    
+    .popular-artists .artist-card>.artist-art>img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+    
+    .popular-artists .artist-card>h3 {
+        color: #19202c;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        margin: 0 0 5px 0;
+    }
+    
+    .popular-artists .artist-card>.artist-artist {
+        color: #19202c;
+        font-family: Lato;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        opacity: 0.5;
+    }
+}    

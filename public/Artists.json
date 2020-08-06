@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Linkin Park",
+        "artist": "Alternative Rock",
+        "art": "./Images/Linkin.png"
+    },
+    {
+        "title": "Illenium",
+        "artist": "Dance",
+        "art": "./Images/Illenium.png"
+    },
+    {
+        "title": "Asking Alexandria",
+        "artist": "Post-Hardcore",
+        "art": "./Images/Asking.png"
+    },
+    {
+        "title": "Illenium",
+        "artist": "Dance",
+        "art": "./Images/Illenium.png"
+    },
+    {
+        "title": "Linkin Park",
+        "artist": "Alternative Rock",
+        "art": "./Images/Linkin.png"
+    },
+    {
+        "title": "Linkin Park",
+        "artist": "Alternative Rock",
+        "art": "./Images/Linkin.png"
+    },
+    {
+        "title": "Linkin Park",
+        "artist": "Alternative Rock",
+        "art": "./Images/Linkin.png"
+    }
+]

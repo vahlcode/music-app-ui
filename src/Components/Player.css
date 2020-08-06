@@ -1,0 +1,168 @@
+.player {
+    background: linear-gradient(138deg, #FFFFFF, #F3F3F3, #FFFFFF);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 80px;
+    border-top: 1px solid #e9e9e9;
+    height: 80px;
+    width: calc(100% - 240px);
+    position: fixed;
+    left: 240px;
+    bottom: 0;
+    z-index: 10;
+    transition: .5s;
+}
+
+.player>.player-art-and-name {
+    display: flex;
+    align-items: center;
+}
+
+.player>.player-art-and-name>.art {
+    margin-right: 20px;
+    height: 100%;
+    width: 80px;
+}
+
+.player>.player-art-and-name>.song-title-and-artist>h3 {
+    color: #19202c;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-bottom: 10px;
+}
+
+.player>.player-art-and-name>.song-title-and-artist>h5 {
+    color: #19202c;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    opacity: 0.5;
+}
+
+.player>.player-timeline-and-time {
+    display: flex;
+    align-items: center;
+    margin-right: 68px;
+}
+
+.player>.player-timeline-and-time>#timeline {
+    margin-right: 20px;
+    width: 413px;
+}
+
+.player>.player-timeline-and-time>.time>.time-played {
+    color: #19202c;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-bottom: 10px;
+}
+
+.player>.player-timeline-and-time>.time>.total-time {
+    color: #19202c;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    opacity: 0.5;
+}
+
+.player>.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.player>.controls>.volume-repeat-shuffle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.player>.controls>.volume-repeat-shuffle>button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: #d4d3d3;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.player>.controls>.volume-repeat-shuffle>button:last-of-type {
+    margin-right: 0;
+}
+
+.player>.controls>.volume-repeat-shuffle>button.volume {
+    position: relative;
+    overflow: hidden;
+}
+
+.player>.controls>.volume-repeat-shuffle>button.shuffle.yes {
+    background: var(--primary-color);
+}
+
+.player>.controls>.volume-repeat-shuffle>button.repeat.yes {
+    background: var(--primary-color);
+}
+
+.player>.controls>.volume-repeat-shuffle>button.volume>.volume-rate {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: var(--primary-color);
+    z-index: 0;
+}
+
+.player>.controls>.volume-repeat-shuffle>button.volume>svg {
+    position: absolute;
+    z-index: 2;
+}
+
+.player>.controls>.prev-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+.player>.controls>.prev-next>button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: #d4d3d3;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.player>.controls>.prev-next>button:last-of-type {
+    margin-right: 0;
+}
+
+.player>.controls>.play-pause {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70.68px;
+    width: 70px;
+    background: url("../Assets/Images/Pause-bg.svg");
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+
+.player>.controls>.play-pause>button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

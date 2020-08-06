@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Space For Two (R3HAB...",
+        "artist": "Mr. Probz",
+        "art": "./Images/Space-for-two.png",
+        "time": "2:44"
+    },
+    {
+        "title": "Oblivion",
+        "artist": "Fit For A King",
+        "art": "./Images/Oblivion.png",
+        "time": "4:24"
+    },
+    {
+        "title": "Don't Hide",
+        "artist": "Mike Perry & Willemi...",
+        "art": "./Images/Dont-hide-small.png",
+        "time": "2:37"
+    },
+    {
+        "title": "Ghost of You",
+        "artist": "Fit for a King",
+        "art": "./Images/Ghost.png",
+        "time": "3:17"
+    }
+]

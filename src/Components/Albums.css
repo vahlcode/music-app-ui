@@ -1,0 +1,125 @@
+.albums {
+    margin-top: 55px;
+    padding-bottom: 50px;
+}
+
+.albums>.entry {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 0;
+}
+
+.albums>.entry>h1{
+    color: #1f2022;
+    font-family: "Playfair Display";
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.albums>.entry>.entry-icons{
+    display: flex;
+    align-items: center;
+}
+
+.albums>.entry>.entry-icons button{
+    width: 28px;
+    height: 28px;
+    background: #1f2022;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.1;
+    transition: .5s;
+}
+
+.albums>.entry>.entry-icons button:hover{
+    width: 28px;
+    height: 28px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+.albums>.entry>.entry-icons button:first-of-type{
+    margin-right: 10px;
+}
+
+.albums .album-cards{
+    white-space: nowrap;
+    overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  padding-top: 35px;
+}
+
+.albums .album-cards::-webkit-scrollbar{
+    display: none;
+}
+
+@media only screen and (min-width: 961px) {
+    .albums {
+        margin-top: 55px;
+        padding-bottom: 50px;
+    }
+    
+    .albums>.entry {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 80px 0 0;
+    }
+    
+    .albums>.entry>h1{
+        color: #1f2022;
+        font-family: "Playfair Display";
+        font-size: 28px;
+        font-weight: 900;
+    }
+    
+    .albums>.entry>.entry-icons{
+        display: flex;
+        align-items: center;
+    }
+    
+    .albums>.entry>.entry-icons button{
+        width: 28px;
+        height: 28px;
+        background: #1f2022;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0.1;
+        transition: .5s;
+    }
+    
+    .albums>.entry>.entry-icons button:hover{
+        width: 28px;
+        height: 28px;
+        background: var(--primary-color);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 1;
+    }
+    
+    .albums>.entry>.entry-icons button:first-of-type{
+        margin-right: 10px;
+    }
+    
+    .albums .album-cards{
+        white-space: nowrap;
+        overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+      padding-top: 35px;
+    }
+    
+    .albums .album-cards::-webkit-scrollbar{
+        display: none;
+    }
+}

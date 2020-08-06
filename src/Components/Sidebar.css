@@ -1,0 +1,134 @@
+.sidebar {
+    padding: 30px 40px;
+    background: linear-gradient(138deg, #FFFFFF, #F3F3F3, #FFFFFF);;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 100vh;
+    z-index: 20;
+    transition: .5s;
+}
+
+.sidebar .logo{
+    margin-bottom: 60px;
+}
+
+.sidebar h3{
+    color: #1F2022;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
+
+.music-nav-bar {
+    margin-bottom: 55px;
+}
+
+.music-nav-bar ul>li {
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.music-nav-bar ul>li:last-of-type {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.music-nav-bar ul>li>a {
+    color: var(--font-color);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.music-nav-bar ul>li>a .icon{
+    opacity: 0.3;
+    transition: .5s;
+}
+
+.music-nav-bar ul>li>a:hover .icon{
+    fill: var(--primary-color);
+    opacity: 1;
+}
+
+.music-nav-bar ul>li>a span{
+    transition: .5s;
+}
+
+.music-nav-bar ul>li>a:hover span{
+    margin-left: 15px;
+}
+
+.music-nav-bar svg {
+    margin-right: 15px;
+}
+
+.music-nav-bar .icon {
+    fill: #1F2022;
+    margin-right: 15px;
+}
+
+.playlists {
+    margin-bottom: 55px;
+}
+
+.playlists ul>li {
+    font-size: 14px;
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.playlists ul>li:last-of-type {
+    list-style: none;
+    margin-bottom: 27px;
+}
+
+.playlists ul>li>a {
+    color: var(--font-color);
+    font-weight: 700;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.playlists ul>li:hover>a {
+    margin-left: 15px;
+}
+
+.playlists .add-playlist{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    background: var(--primary-color);
+    border-radius: 6px;
+    box-shadow: 0px 18px 24px rgba(0,0,0,0.12);
+}
+
+.playlists .add-playlist .icon{
+    fill: #ffffff;
+    transition: .5s;
+}
+
+.playlists .add-playlist:hover .icon{
+    fill: #ffffff;
+    opacity: 1;
+}
+
+.playlists .add-playlist span{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 900;
+    transition: .5s;
+}
+
+.playlists svg {
+    margin-right: 15px;
+}
+
+.playlists .icon {
+    fill: #1F2022;
+    margin-right: 15px;
+}

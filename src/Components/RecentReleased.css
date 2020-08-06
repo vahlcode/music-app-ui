@@ -1,0 +1,330 @@
+.recent-released .entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.recent-released .entry h3 {
+    color: #1f2022;
+    font-family: "Playfair Display";
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.recent-released>.entry>.entry-icons {
+    display: flex;
+    align-items: center;
+}
+
+.recent-released>.entry>.entry-icons button {
+    width: 28px;
+    height: 28px;
+    background: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: .5s;
+}
+
+.recent-released>.entry>.entry-icons button>svg>g>path {
+    transition: .5s;
+}
+
+.recent-released>.entry>.entry-icons button>svg>g {
+    transition: .5s;
+}
+
+.recent-released>.entry>.entry-icons button:hover>svg>g {
+    opacity: 1;
+}
+
+.recent-released>.entry>.entry-icons button:hover>svg>g>path {
+    fill: var(--primary-color);
+    opacity: 1;
+}
+
+.recent-released>.releases>table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse:separate; 
+    border-spacing: 0 8px;
+    overflow-x: auto;
+}
+
+.recent-released>.releases>table th {
+    padding: 10px;
+    text-align: left;
+    color: #19202c;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.recent-released>.releases>table tr {
+    margin-bottom: 8px;
+}
+
+.recent-released>.releases>table tr:hover {
+    cursor: pointer;
+}
+
+.recent-released>.releases>table tr:last-of-type>td {
+    background: #336cfb;
+    box-shadow: 0px 12px 30px rgba(51,108,251,0.3);
+    color: #ffffff;
+    opacity: 1;
+}
+
+.recent-released>.releases>table tr.playing>td {
+    border: none;
+}
+
+.recent-released>.releases>table .song-name-art {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 10px 0 10px 10px;
+    text-align: left;
+    color: #1f2022;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.recent-released>.releases>table .song-name-art>img {
+    border-radius: 3px;
+    height: 40px;
+    width: 40px;
+    box-shadow: 0px 8px 30px rgba(30,30,38,0.3);
+    position: absolute;
+    z-index: 0;
+}
+
+.recent-released>.releases>table .song-name-art>.song-art {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.recent-released>.releases>table .song-name-art>.song-art>.play-pause {
+    height: 22px;
+    width: 22px;
+    position: absolute;
+    z-index: 2;
+    transition: .5s;
+    transform: translateY(-80px);
+}
+
+.recent-released>.releases>table  tr:hover>.song-name-art>.song-art>.play-pause {
+    height: 22px;
+    width: 22px;
+    position: absolute;
+    z-index: 2;
+    transform: translateY(0);
+}
+
+.recent-released>.releases>table  tr.playing>.song-name-art>.song-art>.play-pause {
+    height: 22px;
+    width: 22px;
+    position: absolute;
+    z-index: 2;
+    transform: translateY(0);
+}
+
+.recent-released>.releases>table .song-artist {
+    color: #1f2022;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.recent-released>.releases>table .song-time {
+    padding-right: 27px;
+    opacity: 0.3;
+    color: #1f2022;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: right;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
+@media only screen and (min-width: 961px) {
+    .recent-released .entry {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+    
+    .recent-released .entry h3 {
+        color: #1f2022;
+        font-family: "Playfair Display";
+        font-size: 28px;
+        font-weight: 900;
+    }
+    
+    .recent-released>.entry>.entry-icons {
+        display: flex;
+        align-items: center;
+    }
+    
+    .recent-released>.entry>.entry-icons button {
+        width: 28px;
+        height: 28px;
+        background: transparent;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 1;
+        transition: .5s;
+    }
+    
+    .recent-released>.entry>.entry-icons button>svg>g>path {
+        transition: .5s;
+    }
+    
+    .recent-released>.entry>.entry-icons button>svg>g {
+        transition: .5s;
+    }
+    
+    .recent-released>.entry>.entry-icons button:hover>svg>g {
+        opacity: 1;
+    }
+    
+    .recent-released>.entry>.entry-icons button:hover>svg>g>path {
+        fill: var(--primary-color);
+        opacity: 1;
+    }
+    
+    .recent-released>.releases>table {
+        width: 100%;
+        border-collapse:separate; 
+        border-spacing: 0 8px;
+    }
+    
+    .recent-released>.releases>table th {
+        padding: 10px;
+        text-align: left;
+        color: #19202c;
+        font-family: Lato;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+    }
+    
+    .recent-released>.releases>table tr {
+        margin-bottom: 8px;
+    }
+    
+    .recent-released>.releases>table tr:hover {
+        cursor: pointer;
+    }
+    
+    .recent-released>.releases>table tr:last-of-type>td {
+        background: #336cfb;
+        box-shadow: 0px 12px 30px rgba(51,108,251,0.3);
+        color: #ffffff;
+        opacity: 1;
+    }
+    
+    .recent-released>.releases>table tr.playing>td {
+        border: none;
+    }
+    
+    .recent-released>.releases>table .song-name-art {
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+        padding: 10px 0 10px 10px;
+        text-align: left;
+        color: #1f2022;
+        font-family: "Lato";
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .recent-released>.releases>table .song-name-art>img {
+        border-radius: 3px;
+        height: 40px;
+        width: 40px;
+        box-shadow: 0px 8px 30px rgba(30,30,38,0.3);
+        position: absolute;
+        z-index: 0;
+    }
+    
+    .recent-released>.releases>table .song-name-art>.song-art {
+        margin-right: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .recent-released>.releases>table .song-name-art>.song-art>.play-pause {
+        height: 22px;
+        width: 22px;
+        position: absolute;
+        z-index: 2;
+        transition: .5s;
+        transform: translateY(-80px);
+    }
+    
+    .recent-released>.releases>table  tr:hover>.song-name-art>.song-art>.play-pause {
+        height: 22px;
+        width: 22px;
+        position: absolute;
+        z-index: 2;
+        transform: translateY(0);
+    }
+    
+    .recent-released>.releases>table  tr.playing>.song-name-art>.song-art>.play-pause {
+        height: 22px;
+        width: 22px;
+        position: absolute;
+        z-index: 2;
+        transform: translateY(0);
+    }
+    
+    .recent-released>.releases>table .song-artist {
+        color: #1f2022;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+    }
+    
+    .recent-released>.releases>table .song-time {
+        padding-right: 27px;
+        opacity: 0.3;
+        color: #1f2022;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        text-align: right;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+}
